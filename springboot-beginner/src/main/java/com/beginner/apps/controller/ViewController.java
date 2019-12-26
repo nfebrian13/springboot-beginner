@@ -9,4 +9,14 @@ public class ViewController {
 	public String viewProducts() {
 		return "view-products";
 	}
+
+	/*
+	 * #Tutorialspoint - Language
+	 * 
+	 */
+
+	@RequestMapping("/locale")
+	public String locale() {
+		return "locale";
+	}
 }
